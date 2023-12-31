@@ -201,8 +201,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 CONTACT
 ## Contact
 
-
-Project Link: [Energy Informatics GitHub Group 9](https://github.com/Haider155/CS-360-Group-9-Project)
+Project Link: [Energy Informatics GitHub Group 9](https://github.com/Mughees2001/Mobile-Application-for-LUMS-Energy-Group)
 
 
 
