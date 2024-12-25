@@ -53,12 +53,31 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <!-- <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li> -->
+    <li>
+      <a href="#screens-and-features">Screens and Features</a>
+      <ul>
+        <li><a href="#sign-up-screens">Sign Up Screens</a></li>
+        <li><a href="#navigation-sidebar">Navigation Sidebar</a></li>
+        <li><a href="#summary-screen">Summary Screen</a></li>
+        <li>
+          <a href="#bill-screens">Bill Screens</a>
+          <ul>
+            <li><a href="#electricity-bill">Electricity Bill</a></li>
+            <li><a href="#sub-ct-share">Sub CT Share</a></li>
+          </ul>
+        </li>
+        <li><a href="#live-load-profile">Live Load Profile</a></li>
+        <li>
+          <a href="#historical-screens">Historical Screens</a>
+          <ul>
+            <li><a href="#historical-load">Historical Load</a></li>
+          </ul>
+        </li>
+        <li><a href="#settings-page">Settings Page</a></li>
+        <li><a href="#dark-mode-screens">Dark Mode Screens</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
-    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 
@@ -141,6 +160,158 @@ the application can provide soft copies and information of the monthly bill whic
     npm start
    ``` 
 8. Open EXPO App on your Phone and Scan the QR CODE
+
+
+
+## Sign Up Screens
+
+**Overview:**  
+A three-step process to create an account, requiring users to input their full name, phone number, smart meter ID, email, username, and password. OTP verification completes the setup.
+
+**Key Features:**
+
+- **Progress Indicator**: Displays progress across steps.
+- **Login Option**: Option to navigate back if already registered.
+- **Info Icons**: Guide users on specific fields like Smart Meter ID.
+- **Password Toggle**: View entered passwords.
+- **Feedback Screens**: Confirms completion.
+
+**Illustration:**  
+![Sign Up Screens](imgs/SignUp.png)
+
+---
+
+## Navigation Sidebar
+
+**Overview:**  
+Allows users to navigate through the application's features, such as summary, bills, historical load, and settings.
+
+**Key Features:**
+
+- **Tabs**: Redirects to respective sections.
+- **Highlighting**: Current tab is highlighted for clarity.
+- **Profile Integration**: Displays profile name and logo.
+- **Focus Mode**: Dulls the background to improve visibility.
+
+**Illustration:**  
+![Navigation Sidebar](imgs/Nav%20Bar.png)
+
+---
+
+## Summary Screen
+
+**Overview:**  
+Provides an overview of electricity statistics with two views: "Numerics" and "Graphs."
+
+**Key Features:**
+
+- **Numerics**: Displays current bill, cost, and usage.
+- **Graphs**: Allows selection of graph types and time periods.
+- **Interactive Design**: Features tabs, dropdowns, and color-coded visuals.
+
+**Illustration:**  
+![Summary Screen](imgs/Summary.png)
+
+---
+
+## Bill Screens
+
+### Electricity Bill
+
+**Overview:**  
+Displays the current bill, expected bill, expected units, and provides an option to download the bill as a PDF.
+
+**Key Features:**
+
+- **Download Button**: Enables users to save bills in PDF format.
+- **Navigation**: Links to billing trends and history screens.
+- **Readable Cards**: Consistent design with clear visuals.
+
+**Illustration:**  
+![Electricity Bill Screen](imgs/Bill.png)
+
+---
+
+### Sub CT Share
+
+**Overview:**  
+Displays power consumption per appliance using a pie chart.
+
+**Key Features:**
+
+- **Key Legend**: Explains color codes for appliances.
+- **Readable Charts**: Well-scaled and visually intuitive.
+
+**Illustration:**  
+![Sub CT Share Screen](imgs/Sub%20CT%20Share.png)
+
+---
+
+## Live Load Profile
+
+**Overview:**  
+Provides real-time graphs of electricity consumption per appliance.
+
+**Key Features:**
+
+- **Time Dropdowns**: Allows users to select specific time slots.
+- **Interactive Graphs**: Features zoom, rotate, and expand options.
+- **Component Selection**: Allows filtering via checkbox buttons.
+
+**Illustration:**  
+![Live Load Profile Screen](imgs/Live%20Load%20Profile.png)
+
+---
+
+## Historical Screens
+
+### Historical Load
+
+**Overview:**  
+Displays graphs and summaries of electrical units consumed over a selected time period.
+
+**Key Features:**
+
+- **Expandable Graphs**: Optimized for landscape viewing.
+- **Key Legend**: Helps identify components in the graph.
+- **Consistent Design**: Matches the theme of the application.
+
+**Illustration:**  
+![Historical Load Screen](imgs/Historical%20Load.png)
+
+---
+
+## Settings Page
+
+**Overview:**  
+Allows users to modify application and account settings, such as notifications, theme, time format, profile, and display names. Provides an option to contact support.
+
+**Key Features:**
+
+- **Toggle Buttons**: For enabling/disabling notifications and selecting time formats.
+- **Profile Settings**: Update profile picture, password, and device names.
+- **Support Access**: Includes icons and navigation for contacting support.
+
+**Illustration:**  
+![Settings Page](imgs/Settings.png)
+
+---
+
+## Dark Mode Screens
+
+**Overview:**  
+Demonstrates the application's dark mode interface.
+
+**Key Features:**
+
+- **Contrast and Readability**: White text on dark surfaces with appropriate color contrast.
+- **Depth Indication**: Shadows and varying shades highlight key elements.
+- **Gradient Sidebar**: Differentiates the sidebar from the main screen.
+
+**Illustration:**  
+![Dark Mode Screen](imgs/Dark%20Mode.png)
+
+
    
 
 <!-- USAGE EXAMPLES
@@ -198,10 +369,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-CONTACT
-## Contact
-
-Project Link: [Energy Informatics GitHub Group 9](https://github.com/Mughees2001/Mobile-Application-for-LUMS-Energy-Group)
 
 
 
@@ -221,7 +388,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> 
 
 
 
