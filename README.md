@@ -134,7 +134,7 @@ the application can provide soft copies and information of the monthly bill whic
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Haider155/CS-360-Group-9-Project.git
+   git clone https://github.com/Mughees2001/EnergyMonitor---EIG
    ```
 2. Install the EXPO package and dotenv
    ```sh
@@ -145,17 +145,17 @@ the application can provide soft copies and information of the monthly bill whic
    ```sh
     npm install mongoose --save
    ```
-4. Add the file `config.env`  in `CS-360-Group-9-Project/server/config`
+4. Add the file `config.env`  in `EnergyMonitor--EIG/server/config`
 
 5. Install the EXPO App on your phone
    ```sh
     https://play.google.com/store/apps/details?id=host.exp.exponent&pli=1
    ```
-6. Install npm in the folder `CS-360-Group-9-Project/energyInformatics`.
+6. Install npm in the folder `EnergyMonitor--EIG/energyInformatics`.
  ```sh
     npm install
    ```
-7. Start the App in  `CS-360-Group-9-Project/energyInformatics`.
+7. Start the App in  `EnergyMonitor--EIG/energyInformatics`.
  ```sh
     npm start
    ``` 
